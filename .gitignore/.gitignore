@@ -1,32 +1,16 @@
-# Prerequisites
-*.d
+# Libraries
+*.lvlibp
+*.llb
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# Shared objects (inc. Windows DLLs)
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+*.so
+*.so.*
+*.dylib
 
 # Executables
 *.exe
-*.out
-*.app
+
+# Metadata
+*.aliases
+*.lvlps
